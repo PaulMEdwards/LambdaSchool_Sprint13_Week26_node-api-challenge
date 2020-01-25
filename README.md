@@ -40,15 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [x] Mention two parts of Express that you learned about this week.
 
-  - custom middleware & middleware function chaining.
+  - Custom middleware & middleware function chaining.
 
-- [ ] Describe Middleware?
+- [x] Describe Middleware?
 
-- [ ] Describe a Resource?
+  - Middleware provides a mechanism to extend the base features provided by the Express framework.
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x] Describe a Resource?
 
-- [ ] How can we partition our application into sub-applications?
+  - Everything [data received & provided by the server] is a resource.
+
+- [x] What can the API return to help clients know if a request was successful?
+
+  - An HTTP status code.
+
+- [x] How can we partition our application into sub-applications?
+
+  - Using the Express Router mechanism.
 
 ## Minimum Viable Product
 
